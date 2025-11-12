@@ -34,5 +34,6 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/rainman-code/Frontend.git
 cd Frontend
+cd app
 npm install
 npm run dev
