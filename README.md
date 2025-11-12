@@ -1,36 +1,38 @@
 # 🎗️ Cancer Awareness & Support
 
-A simple and responsive **React + Tailwind CSS** web app that promotes **Cancer Awareness & Support**.  
-The app features an inspiring landing page, a contact form, and a live quote section that fetches motivational quotes from a public API.
+A modern, responsive **React + Tailwind CSS** web application designed to promote **Cancer Awareness & Support**.  
+It features an inspiring landing section, a simple contact form, and a live quote generator powered by a public API — all built with clean, modular React components.
 
 ---
 
 ## 🌟 Features
 
-- 🩷 **Landing Page** with awareness message and banner image  
-- 💬 **Contact Form** with fields for Name, Email, and Message (frontend only)  
-- 🔄 **Live Quotes** dynamically fetched from [Quotable API](https://api.quotable.io/random)  
-- 📱 **Responsive Layout** built with Tailwind CSS  
-- ⚡ **React Functional Components** for clean, modular code  
+- 🩷 **Beautiful Landing Page** — awareness message with a banner image  
+- 💬 **Contact Form** — fields for Name, Email, and Message (frontend-only, no backend)  
+- 🔄 **Motivational Quotes** — fetched dynamically from [ZenQuotes API](https://zenquotes.io/api/random)  
+- 📱 **Fully Responsive** — optimized layout for all screen sizes  
+- ⚛️ **Modern Stack** — built using React functional components and Tailwind CSS  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category | Technology |
-|-----------|-------------|
-| Frontend  | React (Vite or CRA) |
-| Styling   | Tailwind CSS |
-| API       | (https://zenquotes.io/api/random) |
-| Tools     | npm / yarn |
+| Category  | Technology |
+|------------|-------------|
+| **Frontend** | React (Vite or Create React App) |
+| **Styling**  | Tailwind CSS |
+| **API**      | [ZenQuotes API](https://zenquotes.io/api/random) |
+| **Package Manager** | npm / yarn |
 
 ---
 
-## 🏁 Getting Started
+## 🚀 Getting Started
 
 Follow these steps to run the project locally:
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/cancer-awareness-support.git
-cd cancer-awareness-support
+git clone https://github.com/rainman-code/Frontend.git
+cd Frontend
+npm install
+npm run dev
